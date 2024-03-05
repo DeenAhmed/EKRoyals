@@ -1,131 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
 }
-.container{
-    width:100%;
-    height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pictures/indoor-ball.jpg);
-    background-position: center;
-    background-size: cover;
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(pictures/indoor-ball.jpg);
+  background-position: center;
+  background-size: cover;
 }
 /*---------------------------------------------background^^-------------------------------*/
-.nav-links{
-    padding-top: 2%;
-    padding-right: 15%;
-    flex: 1;
-    text-align: right;
-    word-spacing: 10px;
+.nav-links {
+  padding-top: 2%;
+  padding-right: 15%;
+  flex: 1;
+  text-align: right;
+  word-spacing: 10px;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 15px 15xp;
-    position: relative;
-    
-
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15xp;
+  position: relative;
 }
-.nav-links ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: lightgrey;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: lightgrey;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
-.nav-links ul li:hover::after{
-    width: 100%;
+.nav-links ul li:hover::after {
+  width: 100%;
 }
 /*----------------------------------------------Nav^^--------------------------------------------*/
-.title{
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 5%;
-    font-size: 30px;
-    color: white;
-
+.title {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 30px;
+  color: white;
 }
 /*--------------------------------------------title^^----------------------------------------*/
-.about-info{
-    text-align: left;
-    padding-left: 8%;
-    padding-top: 5%;
-    font-size: 30px;
-    color: white;
-
+.about-info {
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 5%;
+  font-size: 30px;
+  color: white;
 }
-.about-info p{
-    font-size:  22px;
-    padding-top: 2%;
+.about-info p {
+  font-size: 22px;
+  padding-top: 2%;
 }
-button{
-    width: 180px;
-    color:black;
-    font-size: 20px;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline:none;
-    margin-top: 30px;
-    padding: 15px 0;
-    cursor: pointer;
+button {
+  width: 180px;
+  color: black;
+  font-size: 20px;
+  background: white;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  padding: 15px 0;
+  cursor: pointer;
 }
 /*------------------------------------------home page^^---------------------------------*/
-.block{
-    width: 300px;
-    height: 220px;
-    display: inline-table;
-    border-radius: 10px;
-    padding: 18px 20px;
-    box-sizing: border-box;
-    margin: 15px 20px;
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    color: black;
-    font-size: 25px;
-    margin-top: 80px;
-    margin-left: 50px;
-    opacity: 50%;
-    font-weight: normal;
+.block {
+  width: 300px;
+  height: 220px;
+  display: inline-table;
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  margin: 15px 20px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-left: 50px;
+  opacity: 50%;
+  font-weight: normal;
 }
-.train-info{
-    text-align: left;
-    padding-left: 8%;
-    padding-top: 2%;
-    font-size: 30px;
-    color: white; 
+.train-info {
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 2%;
+  font-size: 30px;
+  color: white;
 }
 /*---------------------------training page^^----------------------------------*/
-.tour-info{
-    text-align: left;
-    padding-left: 2%;
-    padding-top: 2%;
-    font-size: 25px;
-
+.tour-info {
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 2%;
+  font-size: 25px;
 }
-.tour-block{
-    width: 30%;
-    height: 40%;
-    display: inline-table;
-    border-radius: 10px;
-    padding: 18px 20px;
-    box-sizing: border-box;
-    margin: 15px 20px;
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    color: black;
-    font-size: 25px;
-    margin-top: 5%;
-    margin-left: 8%;
-    opacity: 50%;
-    font-weight: normal;
+.tour-block {
+  width: 30%;
+  height: 40%;
+  display: inline-table;
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  margin: 15px 20px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-size: 25px;
+  margin-top: 5%;
+  margin-left: 8%;
+  opacity: 50%;
+  font-weight: normal;
 }
