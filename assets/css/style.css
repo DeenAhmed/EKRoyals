@@ -11,6 +11,16 @@
   background-position: center;
   background-size: cover;
 }
+
+.contact-container {
+  height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/indoor-ball.jpg);
+  background-position: center;
+  background-size: cover;
+}
 /*---------------------------------------------background^^-------------------------------*/
 .nav-links {
   padding-top: 2%;
@@ -124,4 +134,19 @@ button {
   margin-left: 8%;
   opacity: 50%;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .tour-block {
+    width: unset;
+    height: unset;
+  }
+
+  .container {
+    height: unset;
+  }
+
+  .block {
+    margin-left: 2rem;
+  }
 }
