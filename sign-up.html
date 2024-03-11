@@ -20,6 +20,47 @@
       <div class="title">
         <h1>Sign up Today!</h1>
       </div>
+      <p>Which tournaments would you like to sign up for?</p>
+      <form>
+        <label for="indoor">Indoor Tournaments</label>
+        <input
+          type="checkbox"
+          id="indoor"
+          name="indoor"
+          value="Indoor Tournaments"
+        />
+        <label for="outdoor">Outdoor Tournaments</label>
+        <input
+          type="checkbox"
+          id="outdoor"
+          name="outdoor"
+          value="Outdoor Tournaments"
+        /><br />
+        <div class="input-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" required />
+        </div>
+        <div class="input-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="lname" name="lname" />
+        </div>
+        <div class="input-group">
+          <label for="number">Mobile Number</label>
+          <input type="number" id="number" name="number" />
+        </div>
+        <label for="age-group">Age Group</label>
+        <select id="age-group" name="age-group">
+          <option value="BS1-S3">Boys S1-S3</option>
+          <option value="BS4-S6">Boys S4-S6</option>
+          <option value="GS1-S3">Girls S1-S3</option>
+          <option value="GS4-S6">Girls S4-S6</option>
+        </select>
+        <button type="submit">Sign Up</button>
+      </form>
     </main>
   </body>
 </html>
