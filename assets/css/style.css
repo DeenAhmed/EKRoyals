@@ -130,10 +130,22 @@ button {
   background-size: cover;
   color: black;
   font-size: 25px;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 8%;
   opacity: 50%;
   font-weight: normal;
+}
+#signupbut {
+  width: 150px;
+  color: black;
+  font-size: 15px;
+  background: white;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px 0;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
