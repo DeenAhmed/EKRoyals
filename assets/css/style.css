@@ -55,7 +55,7 @@
 /*----------------------------------------------Nav^^--------------------------------------------*/
 .title {
   text-align: left;
-  padding-left: 10%;
+  padding-left: 8%;
   padding-top: 5%;
   font-size: 30px;
   color: white;
@@ -105,7 +105,7 @@ button {
 }
 .train-info {
   text-align: left;
-  padding-left: 8%;
+  padding-left: 10%;
   padding-top: 2%;
   font-size: 30px;
   color: white;
@@ -113,9 +113,9 @@ button {
 /*---------------------------training page^^----------------------------------*/
 .tour-info {
   text-align: left;
-  padding-left: 2%;
+  padding-right: 5%;
   padding-top: 2%;
-  font-size: 25px;
+  font-size: 30px;
 }
 .tour-block {
   width: 30%;
@@ -131,14 +131,15 @@ button {
   color: black;
   font-size: 25px;
   margin-top: 2%;
-  margin-left: 8%;
+  margin-left: 10%;
   opacity: 50%;
   font-weight: normal;
 }
 #signupbut {
-  width: 150px;
+  position: absolute;
+  width: 180px;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   background: white;
   border: 0;
   border-radius: 20px;
@@ -146,6 +147,9 @@ button {
   margin-top: 20px;
   padding: 10px 0;
   cursor: pointer;
+  text-align: center;
+  right: 20%;
+  top: 15%;
 }
 
 @media only screen and (max-width: 600px) {
