@@ -170,6 +170,7 @@
   font-size: 25px;
 }
 form {
+  position: relative;
   padding-left: 5%;
   padding-top: 8%;
   font-size: 20px;
@@ -192,9 +193,7 @@ select {
   color: white;
   font-size: 18px;
 }
-option {
-  background: transparent;
-}
+
 button {
   width: 200px;
   color: black;
@@ -228,5 +227,8 @@ button {
 
   .block {
     margin-left: 2rem;
+  }
+  #signupbut {
+    top: 20%;
   }
 }
