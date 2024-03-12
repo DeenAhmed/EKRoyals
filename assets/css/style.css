@@ -206,6 +206,10 @@ button {
   padding: 8px;
   cursor: pointer;
 }
+option {
+  color: white;
+  background-color: gray;
+}
 /*----------------------signup^^------------------------*/
 .contact-info {
   color: white;
@@ -230,5 +234,8 @@ button {
   }
   #signupbut {
     top: 20%;
+  }
+  .contact-info {
+    font-size: 20px;
   }
 }
