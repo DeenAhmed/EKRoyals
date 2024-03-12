@@ -135,6 +135,9 @@
   opacity: 50%;
   font-weight: normal;
 }
+.tour-text {
+  font-weight: bolder;
+}
 #signupbut {
   position: absolute;
   width: 180px;
