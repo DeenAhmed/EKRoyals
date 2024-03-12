@@ -208,6 +208,13 @@ button {
   cursor: pointer;
 }
 /*----------------------signup^^------------------------*/
+.contact-info {
+  color: white;
+  font-size: 30px;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+/*----------------------contact^^------------------------*/
 
 @media only screen and (max-width: 600px) {
   .tour-block {
