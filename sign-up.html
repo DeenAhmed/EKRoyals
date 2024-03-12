@@ -17,25 +17,29 @@
           </ul>
         </nav>
       </header>
-      <div class="title">
+      <div class="sign-title">
         <h1>Sign up Today!</h1>
       </div>
-      <p>Which tournaments would you like to sign up for?</p>
+      <!-------<p>Which tournaments would you like to sign up for?</p>
+        <div class="input-group">
+          <label for="indoor">Indoor Tournaments</label>
+          <input
+            type="checkbox"
+            id="indoor"
+            name="indoor"
+            value="Indoor Tournaments"
+        </div>
+        <div class="input-group">
+          <label for="outdoor">Outdoor Tournaments</label>
+          <input
+            type="checkbox"
+            id="outdoor"
+            name="outdoor"
+            value="Outdoor Tournaments"
+          />
+        </div>
+        <br />------->
       <form>
-        <label for="indoor">Indoor Tournaments</label>
-        <input
-          type="checkbox"
-          id="indoor"
-          name="indoor"
-          value="Indoor Tournaments"
-        />
-        <label for="outdoor">Outdoor Tournaments</label>
-        <input
-          type="checkbox"
-          id="outdoor"
-          name="outdoor"
-          value="Outdoor Tournaments"
-        /><br />
         <div class="input-group">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="fname" required />
@@ -50,7 +54,7 @@
         </div>
         <div class="input-group">
           <label for="number">Mobile Number</label>
-          <input type="number" id="number" name="number" />
+          <input type="text" id="number" name="number" />
         </div>
         <label for="age-group">Age Group</label>
         <select id="age-group" name="age-group">
@@ -59,6 +63,8 @@
           <option value="GS1-S3">Girls S1-S3</option>
           <option value="GS4-S6">Girls S4-S6</option>
         </select>
+        <br />
+        <br />
         <button type="submit">Sign Up</button>
       </form>
     </main>
