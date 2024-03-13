@@ -121,6 +121,7 @@
   width: 30%;
   height: 40%;
   display: inline-table;
+  border: solid;
   border-radius: 10px;
   padding: 18px 20px;
   box-sizing: border-box;
