@@ -226,22 +226,31 @@ option {
 /*----------------------signup^^------------------------*/
 .contact-info {
   color: white;
-  font-size: 28px;
+  font-size: 25px;
   padding-left: 8%;
   padding-top: 3%;
 }
 .contact-info h2 {
-  font-size: 35px;
+  font-size: 30px;
 }
 .contact-info p {
   font-weight: bold;
 }
+.address {
+  color: white;
+  font-size: 25px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+.address h2 {
+  font-size: 30px;
+}
 iframe {
   height: 30%;
-  width: 40%;
-  position: relative;
-  left: 30%;
+  width: 35%;
   border-radius: 10px;
+  bottom: 2rem;
+  top: 15px;
 }
 /*----------------------contact^^------------------------*/
 
@@ -273,5 +282,10 @@ iframe {
   input,
   select {
     width: 70%;
+  }
+  .training-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
