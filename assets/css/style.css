@@ -83,6 +83,9 @@
   margin-top: 30px;
   padding: 15px 0;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: unset;
 }
 /*------------------------------------------home page^^---------------------------------*/
 .block {
@@ -111,6 +114,12 @@
   font-size: 30px;
   color: white;
 }
+.training-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /*---------------------------training page^^----------------------------------*/
 .tour-info {
   text-align: left;
@@ -178,9 +187,10 @@ form {
   padding-top: 8%;
   font-size: 20px;
   color: white;
-  label {
-    display: block;
-  }
+}
+form,
+label {
+  display: block;
 }
 .input-group {
   margin-bottom: 2%;
@@ -218,10 +228,20 @@ option {
   color: white;
   font-size: 28px;
   padding-left: 8%;
-  padding-top: 5%;
+  padding-top: 3%;
+}
+.contact-info h2 {
+  font-size: 35px;
 }
 .contact-info p {
   font-weight: bold;
+}
+iframe {
+  height: 30%;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  border-radius: 10px;
 }
 /*----------------------contact^^------------------------*/
 
@@ -243,5 +263,15 @@ option {
   }
   .contact-info {
     font-size: 20px;
+  }
+  form {
+    position: unset;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  input,
+  select {
+    width: 70%;
   }
 }
