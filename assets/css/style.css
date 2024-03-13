@@ -21,6 +21,7 @@
   background-position: center;
   background-size: cover;
 }
+
 /*---------------------------------------------background^^-------------------------------*/
 .nav-links {
   padding-top: 2%;
@@ -247,10 +248,15 @@ option {
 }
 iframe {
   height: 30%;
-  width: 35%;
+  width: 30%;
   border-radius: 10px;
-  bottom: 2rem;
   top: 15px;
+  bottom: 4rem;
+}
+.contact-info a:link {
+  color: aquamarine;
+  background-color: transparent;
+  text-decoration: none;
 }
 /*----------------------contact^^------------------------*/
 
@@ -287,5 +293,9 @@ iframe {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .sign-title {
+    position: unset;
+    text-align: center;
   }
 }
