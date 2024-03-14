@@ -272,14 +272,12 @@ iframe {
     height: unset;
   }
 
-  }
   .nav-links {
     position: relative;
-    background-color: lightgray;
+    font-size: 15px;
     padding-right: 45%;
-    text-align: right;
+    text-align: left;
     letter-spacing: 2px;
-    display: none;
   }
   .tour-block {
     width: unset;
