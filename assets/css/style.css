@@ -275,7 +275,7 @@ iframe {
   .nav-links {
     position: relative;
     font-size: 15px;
-    padding-right: 45%;
+    padding-left: 10%;
     text-align: left;
     letter-spacing: 2px;
   }
@@ -310,7 +310,11 @@ iframe {
     flex-wrap: wrap;
   }
   .sign-title {
-    position: unset;
+    position: relative;
+    text-align: center;
+    right: 20%;
+  }
+  .sign-title p {
     text-align: center;
   }
 }
