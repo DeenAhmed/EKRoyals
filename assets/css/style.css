@@ -23,6 +23,14 @@
 }
 
 /*---------------------------------------------background^^-------------------------------*/
+header {
+  background-color: transparent;
+  padding: 0 8rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
 .nav-links {
   padding-top: 2%;
   padding-right: 15%;
@@ -267,12 +275,45 @@ iframe {
 /*----------------------contact^^------------------------*/
 
 @media only screen and (max-width: 600px) {
-  .tour-block {
-    width: unset;
+  .container {
     height: unset;
   }
-
-  .container {
+  header {
+    background-color: transparent;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    align-items: center;
+  }
+  .nav-toggle-label {
+    padding-top: 2%;
+    padding-right: 15%;
+    flex: 1;
+    text-align: right;
+    position: relative;
+    left: 80%;
+    display: ;
+  }
+  #nav-toggle {
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 5%;
+  }
+  #nav-toggle:checked ~ .nav-links {
+    display: block;
+  }
+  .nav-links {
+    position: relative;
+    background-color: lightgray;
+    padding-right: 45%;
+    text-align: right;
+    letter-spacing: 2px;
+    display: none;
+  }
+  .tour-block {
+    width: unset;
     height: unset;
   }
 
