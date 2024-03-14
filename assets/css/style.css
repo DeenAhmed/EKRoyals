@@ -23,13 +23,6 @@
 }
 
 /*---------------------------------------------background^^-------------------------------*/
-header {
-  background-color: transparent;
-  padding: 0 8rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-}
 
 .nav-links {
   padding-top: 2%;
@@ -278,14 +271,7 @@ iframe {
   .container {
     height: unset;
   }
-  header {
-    background-color: transparent;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    align-items: center;
-  }
+
   }
   .nav-links {
     position: relative;
