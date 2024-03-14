@@ -23,7 +23,13 @@
 }
 
 /*---------------------------------------------background^^-------------------------------*/
-
+.icons {
+  padding-left: 15%;
+  flex: 1;
+}
+.icons i {
+  color: white;
+}
 .nav-links {
   padding-top: 2%;
   padding-right: 15%;
@@ -54,6 +60,7 @@
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
 /*----------------------------------------------Nav^^--------------------------------------------*/
 .title {
   text-align: left;
@@ -293,6 +300,9 @@ iframe {
   }
   .contact-info {
     font-size: 20px;
+  }
+  .contact-button {
+    bottom: 2rem;
   }
   form {
     position: unset;
