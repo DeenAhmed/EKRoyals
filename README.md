@@ -1,6 +1,6 @@
 # EKRoyals
 
-Brand new website for a local Basketball Club in East Kilbride, with training and tournmanets available for young people between the year groups of S1-S6.
+Brand new website for a local Basketball Club in East Kilbride, with training, coaching and tournmanets available for young people between the year groups of S1-S6.
 
 [Live webpage](https://deenahmed.github.io/EKRoyals/)
 
@@ -11,7 +11,7 @@ Brand new website for a local Basketball Club in East Kilbride, with training an
 The client has stated they they wanted a new website to be able to showcase an overview of their club and have asked for this to be designed to the following specifications;
 
 A website to showcase the offerings of a Youth Basketball Club based in East Kilbride, Glasgow.
-The primary aim of the website is to showcase the Club and what they offer.
+The primary aim of the website is to showcase the Club and what activities they offer.
 
 The club chairman and group have provided me with the following goals for the site.
 
@@ -26,7 +26,7 @@ As the club is fairly established in their local town, the main aim is to grow t
 
 ### Target audience
 
-- Young People with interest in bsketball.
+- Young People with interest in basketball.
 - Parents or guardians looking for an activity for their young family.
 
 ### User requirements and expectations
@@ -38,7 +38,7 @@ As the club is fairly established in their local town, the main aim is to grow t
 
 ## Design
 
-I came up with the following keywords for the brand:
+I came up with the following keywords for the site:
 
 - Welcoming
 - Modern
@@ -51,7 +51,7 @@ The classic font "Arial" is used throughout the whole site. I chose to use this 
 
 ### Background
 
-All the pages have the same backhground, i went for a simple image of a basketball and a team playing in the back. I used this because it intigues the user and gives the site a morden look.
+All the pages have the same background, I went for a simple image of a basketball and a team playing in the back. I used this because it intrigues the user and gives the site a modern look.
 
 ## Features
 
@@ -73,7 +73,7 @@ A breakdown of the training days and locations for the different age groups.
 
 ### Tournaments
 
-A showcase of the different tournaments available, indoor and outdoor.
+A showcase of the different tournaments available, indoor and outdoor. Along with a button that takes you to the sign up page.
 
 ![Tournaments](assets/images/feature-tour.png)
 
@@ -153,22 +153,22 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website.
 
 <details><summary>Home page</summary>
-<img src="docs/validation/home__lighthouse.png">
+<img src="assets/images/lighthouse-home.png">
 </details>
-<details><summary>Pricing page</summary>
-<img src="docs/validation/pricing__lighthouse.gif">
+<details><summary>Training page</summary>
+<img src="assets/images/lighthouse-train.png">
 </details>
-<details><summary>Gallery page</summary>
-<img src="docs/validation/gallery__lighthouse.png">
+<details><summary>Tournaments page</summary>
+<img src="assets/images/lighthouse-tour.png">
 </details>
-<details><summary>Contact page</summary>
-<img src="docs/validation/contact__lighthouse.gif">
+<details><summary>Contact Us page</summary>
+<img src="assets/images/lighthouse-contact.png">
 </details>
-<details><summary>Form submission page</summary>
-<img src="docs/validation/form-submission__lighthouse.png">
+<details><summary>Sign Up page</summary>
+<img src="assets/images/lighthouse-signup.png">
 </details>
 <details><summary>404 page</summary>
-<img src="docs/validation/404__lighthouse.gif">
+<img src="assets/images/lighthouse-404.png">
 </details>
 
 ### Performing tests on various devices
@@ -185,43 +185,23 @@ The website was tested on the following browsers:
 
 - Microsoft Edge
 - Google Chrome
-- Firefox
-- Safari: An odd issue with the first FAQ item where the white background has chunks missing. Also, the map takes up more space on the contact page.
-
-## Bugs
-
-| **Bug**                                                                        | **Fix**                                                   |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| Button hover states aren't working correctly                                   | Move `.button` class from the `<li>` to the `<a>` element |
-| Logo image sits above logo after adding mobile navigation                      | Move it to inside the logo's `<li>` element.              |
-| Logo breaks into two lines on smaller screens                                  | Reduce the font size for smaller screens                  |
-| FAQ items are not using the full width available                               | Remove width restriction from FAQ answer `<p>` elements   |
-| Pricing cards are not spaced correctly                                         | Reduce padding on the cards and add a width of 32%        |
-| Map is not responsive                                                          | Remove width and height from the iframe and add extra CSS |
-| Safari shows triangles for `<summary>` tag, even though it's hidden in the CSS | Set `summary::-webkit-details-marker` to `display: none;` |
-| Mobile menu toggle causes accessibility checker to fail                        | Give the link an `aria-label`                             |
 
 ## Deployment
 
 The website was deployed using GitHub Pages by following these steps:
 
 1. In the GitHub repository navigate to the Settings tab
-2. On the left hand menu select Pages
+2. On the left side menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at..."
-
-You can for fork the repository by following these steps:
-
-1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
+4. Once the webpage refreshes you will see a bar on the top with the following message: "Your site is published at"
 
 You can clone the repository by following these steps:
 
 1. Go to the GitHub repository
-2. Locate the Code button above the list of files and click it
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+2. Find the Code button located above the list of files and click it
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click copy this will copy the URL to your clipboard
 4. Open Git Bash
-5. Change the current working directory to the one where you want the cloned directory
+5. Change the current working directory to where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone.
 
@@ -229,40 +209,19 @@ You can clone the repository by following these steps:
 
 ### Media
 
-Unsplash was used for all photos throughout the site. The license is copyright-free.
-In order of apearance:
+Pexels was used for the background of the site. The license is copyright-free.
 
-- Woman sitting by a window (hero) - [Brooke Cagle](https://unsplash.com/photos/NoRsyXmHGpI)
-- Smiling man (hero testimonial) - [Ben Parker](https://unsplash.com/photos/OhKElOkQ3RE)
-- Female software engineer (first testimonial) - [ThisisEngineering](https://unsplash.com/photos/69wEv-G2W_s)
-- Person holding phone (second testimonial) - [Austin Distel](https://unsplash.com/photos/qgdJX9mvMJI)
-- Woman using laptop (gallery) - [Brooke Cagle](https://unsplash.com/photos/xcgh5_-QIXc)
-- Coworking office space (gallery) - [Andrea Davis](https://unsplash.com/photos/04G19lnpHcc)
-- Home interior design (gallery) - [Andrea Davis](https://unsplash.com/photos/w-ARisGf_Kw)
-- Coworking office space (gallery) - [CoWomen](https://unsplash.com/photos/XRGzgDmfjdw)
-- People standing on grey tiles (gallery) - [Ian Schneider](https://unsplash.com/photos/TamMbr4okv4)
-- Empty restaurant (gallery) - [Mengyi](https://unsplash.com/photos/CBGuFZoC6Mw)
-- Three people around a table (gallery) - [Brooke Cagle](https://unsplash.com/photos/g1Kr4Ozfoac)
-- Office desk space (gallery) - [Andrea Davis](https://unsplash.com/photos/GtqN1cTGocE)
-- WeWork Richmond (gallery) - [Eloise Ambursley](https://unsplash.com/photos/iRZqkdb8gK8)
-
-For the illustrations:
-
-- [Figma Community - Indian Doodle Pack](https://www.figma.com/community/file/892381006526736549)
+- [Pexels](https://www.pexels.com/)
 
 For the icons:
 
-- [Phosphoricons](https://phosphoricons.com/)
+- [Font Awesome](https://fontawesome.com)
 
 ### Other
-
-- [Namelix](https://namelix.com/app/?keywords=creative+technology) - startup name generator for testimonials
-- [Testimonial generator](https://testimonial-generator.com/index.php) - for testimonials
 
 ## Acknowledgements
 
 I would like to take the opportunity to thank:
 
-- My family, friends and colleagues for their advice, support and help with testing.
-- My mentor Mo Shami for their feedback, advice and support.
-- Code Institute Slack for peer reviews and advice.
+- My friends and work colleagues for their advice, support and help with testing.
+- My mentor [Richard Wells] (https://github.com/D0nni387) for his first class support.
