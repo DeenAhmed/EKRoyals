@@ -273,6 +273,17 @@ iframe {
   text-decoration: none;
 }
 /*----------------------contact^^------------------------*/
+.thankyou-title {
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 5%;
+  font-size: 30px;
+  color: white;
+}
+.thankyou-title p {
+  padding-top: 10px;
+}
+/*----------------------thankyou^^------------------------*/
 
 @media only screen and (max-width: 600px) {
   .container {
