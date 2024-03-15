@@ -22,7 +22,7 @@
   background-size: cover;
 }
 
-/*---------------------------------------------background^^-------------------------------*/
+/*---- background ----*/
 .icons {
   padding-left: 15%;
   flex: 1;
@@ -61,7 +61,7 @@
   width: 100%;
 }
 
-/*----------------------------------------------Nav^^--------------------------------------------*/
+/*---- Nav ----*/
 .title {
   text-align: left;
   padding-left: 8%;
@@ -69,7 +69,7 @@
   font-size: 30px;
   color: white;
 }
-/*--------------------------------------------title^^----------------------------------------*/
+/*---- title ----*/
 .about-info {
   text-align: left;
   padding-left: 8%;
@@ -96,7 +96,7 @@
   justify-content: center;
   text-decoration: unset;
 }
-/*------------------------------------------home page^^---------------------------------*/
+/*---- home page ----*/
 .block h2 {
   font-size: 1.5rem;
 }
@@ -134,7 +134,7 @@
   flex-wrap: wrap;
 }
 
-/*---------------------------training page^^----------------------------------*/
+/*---- training page ----*/
 .tour-info {
   text-align: left;
   padding-right: 5%;
@@ -182,7 +182,7 @@
   justify-content: center;
   text-decoration: unset;
 }
-/*----------------------tourpage^^------------------------*/
+/*---- tourpage ----*/
 .sign-title {
   position: absolute;
   text-align: left;
@@ -238,7 +238,7 @@ option {
   color: white;
   background-color: gray;
 }
-/*----------------------signup^^------------------------*/
+/*---- signup ----*/
 .contact-info {
   color: white;
   font-size: 25px;
@@ -272,7 +272,7 @@ iframe {
   background-color: transparent;
   text-decoration: none;
 }
-/*----------------------contact^^------------------------*/
+/*---- contact ----*/
 .thankyou-title {
   text-align: left;
   padding-left: 8%;
@@ -283,7 +283,7 @@ iframe {
 .thankyou-title p {
   padding-top: 10px;
 }
-/*----------------------thankyou^^------------------------*/
+/*---- thankyou ----*/
 
 @media only screen and (max-width: 600px) {
   .container {
