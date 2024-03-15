@@ -119,25 +119,25 @@ If a user comes across a page that doesn't exist on the site, they will be redir
 The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages pass with 0 errors and 0 warnings.
 
 <details><summary>Home page</summary>
-<img src="docs/validation/home__validation-html.png">
+<img src="assets/images/html-home.png">
 </details>
 <details><summary>Training page</summary>
-<img src="docs/validation/pricing__validation-html.png">
+<img src="assets/images/train-html.png">
 </details>
 <details><summary>Tournaments page</summary>
-<img src="docs/validation/gallery__validation-html.png">
+<img src="assets/images/tour-html.png">
 </details>
 <details><summary>Contact Us page</summary>
-<img src="docs/validation/contact__validation-html.png">
+<img src="assets/images/contact-html.png">
 </details>
 <details><summary>Sign Up page</summary>
-<img src="docs/validation/form-submission__validation-html.png">
+<img src="assets/images/signup-html.png">
 </details>
 <details><summary>Thankyou page</summary>
-<img src="docs/validation/404__validation-html.png">
+<img src="assets/images/thankyou-html.png">
 </details>
 <details><summary>404 page</summary>
-<img src="docs/validation/404__validation-html.png">
+<img src="assets/images/404-html.png">
 </details>
 
 ### CSS validation
@@ -145,7 +145,7 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. The CSS passes with 0 errors. There are some warnings due to using CSS variables (custom properties), which the validator does not support yet. See the [CSS Validator's GitHub](https://github.com/w3c/css-validator/pull/173#issuecomment-878349650) for more information.
 
 <details><summary>style.css</summary>
-<img src="docs/validation/style__validation-css.png">
+<img src="assets/images/validation-css.png">
 </details>
 
 ### Performance
