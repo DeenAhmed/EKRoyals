@@ -299,6 +299,11 @@ iframe {
     text-align: left;
     letter-spacing: 2px;
   }
+  .nav-links ul li a {
+    font-size: 15px;
+    text-align: left;
+    padding-right: 20px;
+  }
   .tour-block {
     width: unset;
     height: unset;
