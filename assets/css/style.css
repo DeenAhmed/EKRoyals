@@ -199,14 +199,14 @@
 form {
   position: relative;
   padding-left: 5%;
-  padding-top: 8%;
+  padding-top: 5%;
   font-size: 20px;
   color: white;
 }
 form,
 label {
   display: block;
-  bottom: 5%;
+  bottom: 2%;
 }
 .input-group {
   margin-bottom: 2%;
