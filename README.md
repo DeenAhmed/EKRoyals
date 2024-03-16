@@ -8,7 +8,7 @@ Brand new website for a local Basketball Club in East Kilbride, with training, c
 
 ## Aim of the site
 
-The client has stated they they wanted a new website to be able to showcase an overview of their club and have asked for this to be designed to the following specifications;
+The client has stated they wanted a new website to be able to showcase an overview of their club and have asked for this to be designed to the following specifications;
 
 A website to showcase the offerings of a Youth Basketball Club based in East Kilbride, Glasgow.
 The primary aim of the website is to showcase the Club and what activities they offer.
@@ -47,7 +47,7 @@ I came up with the following keywords for the site:
 
 ### Fonts
 
-The classic font "Arial" is used throughout the whole site. I chose to use this as it is bold and easy to read against a imaged background.
+The classic font "Arial" is used throughout the whole site. I chose to use this as it is bold and easy to read against an imaged background.
 
 ### Background
 
@@ -57,7 +57,7 @@ All the pages have the same background, I went for a simple image of a basketbal
 
 ### Title and Navigation
 
-The page title and navigation is shown at the top of every page. They're fully responsive.
+The page title, navigation and social media links are shown at the top of every page. They're fully responsive.
 
 ### Home
 
@@ -131,7 +131,7 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 <img src="assets/images/contact-html.png">
 </details>
 <details><summary>Sign Up page</summary>
-<img src="assets/images/signup-html.png">
+<img src="assets/images/sign-up-html.png">
 </details>
 <details><summary>Thankyou page</summary>
 <img src="assets/images/thankyou-html.png">
@@ -142,7 +142,7 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 
 ### CSS validation
 
-The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. The CSS passes with 0 errors. There are some warnings due to using CSS variables (custom properties), which the validator does not support yet. See the [CSS Validator's GitHub](https://github.com/w3c/css-validator/pull/173#issuecomment-878349650) for more information.
+The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the website. The CSS passes with 0 errors.
 
 <details><summary>style.css</summary>
 <img src="assets/images/validation-css.png">
@@ -166,6 +166,9 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 </details>
 <details><summary>Sign Up page</summary>
 <img src="assets/images/lighthouse-signup.png">
+</details>
+<details><summary>Thank you page</summary>
+<img src="assets/images/lighthouse-thankyou.png">
 </details>
 <details><summary>404 page</summary>
 <img src="assets/images/lighthouse-404.png">
