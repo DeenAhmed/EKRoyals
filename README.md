@@ -178,9 +178,9 @@ The [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/) wa
 
 The website was tested on the following devices:
 
-- Apple MacBook Pro, Apple MacBook Air
-- iPhone X, iPhone 8, iPhone SE
-- Huawei P30 Pro
+- Lenovo ideaPad,
+- HP elitebook
+- iPhone 12 Pro, iPhone SE
 
 ### Browser compatability
 
@@ -227,4 +227,4 @@ For the icons:
 I would like to take the opportunity to thank:
 
 - My friends and work colleagues for their advice, support and help with testing.
-- My mentor [Richard Wells] (https://github.com/D0nni387) for his first class support.
+- My mentor [Richard Wells](https://github.com/D0nni387) for his first class support.
