@@ -189,6 +189,25 @@ The website was tested on the following browsers:
 - Microsoft Edge
 - Google Chrome
 
+## Issues and resolutions
+
+During the build the following issues were flagged
+
+- Trying to build 'hamburger' menu purely using CSS the checkbox input type was completely out of place with the label and could not be adjusted to be positioned next to this.
+  This was resolved by removing the code and adding media query to have the nav links look more appropriate on smaller screens.
+
+- In the form unable to enter text into First Name and Last Name field.
+  This was resolved by re-positioning the form using position:relative;
+
+- buttons dropped to bottom of page and out of container image.
+  Resolved by adjusting padding and adding bottom in CSS.
+
+- Sign up today button was not responsive sat over other text as it was positiioned at other side of the page.
+  This was resolved by moving the position to under title and media query added to have this be responsive.
+
+- On sign up page nav-bar link not working as expected not able to select nav-link
+  Resolved by changing padding for sign-title and bottom value for sign up button
+
 ## Deployment
 
 The website was deployed using GitHub Pages by following these steps:
